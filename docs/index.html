@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>市场情绪画板 · 2026-11-13</title>
+<title>市场情绪画板 · 2026-11-20</title>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
 <style>
   :root{
@@ -51,21 +51,21 @@
 <div class="wrap">
   <header>
     <h1><span class="tag">▮</span> 市场情绪画板 <span style="color:var(--sub);font-size:15px;font-weight:400">非交易时段复盘</span></h1>
-    <div class="meta">最近交易日 <b>2026-11-13</b><br>生成于 2026-11-13 16:50</div>
+    <div class="meta">最近交易日 <b>2026-11-20</b><br>生成于 2026-11-20 17:00</div>
   </header>
 
   <div class="grid kpi">
     <div class="card"><div class="label">全市场成交额</div>
-      <div class="val accent">16,586<small>亿元</small></div>
+      <div class="val accent">14,234<small>亿元</small></div>
       <div class="sub">沪深两市当日合计</div></div>
     <div class="card"><div class="label">上涨占比</div>
-      <div class="val up">14.27<small>%</small></div>
+      <div class="val up">5.74<small>%</small></div>
       <div class="sub">共 5,222 只个股参与统计</div></div>
     <div class="card"><div class="label">涨停 / 跌停</div>
-      <div class="val"><span class="up">38</span> <small>/</small> <span class="down">46</span></div>
-      <div class="sub">连板晋级率 18.42%</div></div>
+      <div class="val"><span class="up">30</span> <small>/</small> <span class="down">82</span></div>
+      <div class="sub">连板晋级率 14.29%</div></div>
     <div class="card"><div class="label">市场宽度</div>
-      <div class="val"><span class="up">745</span> <small>/</small> <span class="down">4420</span></div>
+      <div class="val"><span class="up">300</span> <small>/</small> <span class="down">4900</span></div>
       <div class="sub">上涨 / 下跌家数</div></div>
   </div>
 
@@ -84,7 +84,7 @@
 </div>
 
 <script>
-const PANEL = {"up": 745, "down": 4420, "flat": 57, "total": 5222, "zt": 38, "dt": 46, "promo_rate": 18.42, "options": [{"name": "上证50", "pcr": 0.771, "iv": 17.2}, {"name": "沪深300", "pcr": 0.801, "iv": 25.07}, {"name": "科创50", "pcr": 0.396, "iv": 51.4}, {"name": "创业板", "pcr": 0.844, "iv": 47.62}, {"name": "中证1000", "pcr": 0.813, "iv": 37.73}]};
+const PANEL = {"up": 300, "down": 4900, "flat": 22, "total": 5222, "zt": 30, "dt": 82, "promo_rate": 14.29, "options": [{"name": "上证50", "pcr": 0.743, "iv": 22.19}, {"name": "沪深300", "pcr": 0.767, "iv": 32.56}, {"name": "科创50", "pcr": 0.625, "iv": 58.14}, {"name": "创业板", "pcr": 0.731, "iv": 61.36}, {"name": "中证1000", "pcr": 0.899, "iv": 54.51}]};
 const dark = {bg:'transparent',txt:'#e6edf6',sub:'#8b9bb4',line:'#1f2b3e'};
 
 const b = echarts.init(document.getElementById('breadth'));
